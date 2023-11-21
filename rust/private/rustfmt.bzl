@@ -152,7 +152,6 @@ generated source files are also ignored by this aspect.
         [rust_common.test_crate_info],
     ],
     fragments = ["cpp"],
-    host_fragments = ["cpp"],
     toolchains = [
         str(Label("//rust/rustfmt:toolchain_type")),
     ],
@@ -190,7 +189,6 @@ Output Groups:
 """,
     incompatible_use_toolchain_transition = True,
     fragments = ["cpp"],
-    host_fragments = ["cpp"],
     toolchains = [
         str(Label("//rust/rustfmt:toolchain_type")),
     ],
